@@ -11,8 +11,108 @@
     <link rel="stylesheet" href="./styles/animations.css" />
   </head>
   <body class="page">
-    <header class="header"></header>
-    <main></main>
+    <header class="content header">
+      <a href="#" class="header__title">&lt;/html&gt;</a>
+      <h1 class="header__description">закрывающий тег</h1>
+    </header>
+    <main class="content main">
+      <!-- Первая карточка -->
+      <article class="card">
+        <h2 class="card__title">Фритрек и нулевой спринт: Подготовка к работе</h2>
+        <figure class="card__image">
+          <img class="image" src="./images/card-image.png" alt="Машина">
+          <figcaption class="card__image-label">&lt;/html&gt;</figcaption>
+        </figure>
+        <div class="card__content">
+          <p class="card__content-text">
+            Место для ваших воспоминаний о начале обучения.
+          </p>
+          <div class="card__buttons">
+            <button type="button" class="card__icon-button">
+              <!-- SVG иконка лайка -->
+            </button>
+            <button type="button" class="card__like-button">
+              <span class="button__text">Like</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Вторая карточка -->
+      <article class="card">
+        <h2 class="card__title">1 спринт: Я — чистый лист</h2>
+        <figure class="card__image">
+          <img class="image" src="./images/card-image.png" alt="Машина">
+          <figcaption class="card__image-label">&lt;/html&gt;</figcaption>
+        </figure>
+        <div class="card__content">
+          <p class="card__content-text">
+            Место для ваших воспоминаний о начале первого спринта.
+          </p>
+          <div class="card__buttons">
+            <button type="button" class="card__icon-button">
+              <!-- SVG иконка лайка -->
+            </button>
+            <button type="button" class="card__like-button">
+              <span class="button__text">Like</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Третья карточка -->
+      <article class="card">
+        <h2 class="card__title">1 спринт: А если не получится?</h2>
+        <figure class="card__image">
+          <img class="image" src="./images/card-image.png" alt="Машина">
+          <figcaption class="card__image-label">&lt;css&gt;</figcaption>
+        </figure>
+        <div class="card__content">
+          <p class="card__content-text">
+            Место для ваших воспоминаний об окончании первого спринта.
+          </p>
+          <div class="card__buttons">
+            <button type="button" class="card__icon-button">
+              <!-- SVG иконка лайка -->
+            </button>
+            <button type="button" class="card__like-button">
+              <span class="button__text">Like</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Шаблон для остальных карточек -->
+      <!-- 
+      <article class="card">
+        <h2 class="card__title">Заголовок карточки</h2>
+        <figure class="card__image">
+          <img class="image" src="./images/card-image.png" alt="Машина">
+          <figcaption class="card__image-label">Подпись</figcaption>
+        </figure>
+        <div class="card__content">
+          <p class="card__content-text">
+            Текст карточки...
+          </p>
+          <div class="card__buttons">
+            <button type="button" class="card__icon-button"></button>
+            <button type="button" class="card__like-button">
+              <span class="button__text">Like</span>
+            </button>
+          </div>
+        </div>
+      </article>
+      -->
+
+      <div class="button">
+        <button type="button" class="button-remember">
+          <svg class="floppy" viewbox="0 0 39 39">
+            <!-- SVG флоппи-диска -->
+          </svg>
+          <span class="button__text-rembemer">Сохранить на память</span>
+        </button>
+      </div>
+    </main>
     <script src="./scripts/like.js"></script>
   </body>
 </html>
