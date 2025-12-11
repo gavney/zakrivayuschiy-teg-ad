@@ -1,1 +1,1 @@
-https://gavney.github.io/zakrivayuschiy-teg-ad/
+https://github.com/gavney/zakrivayuschiy-teg-ad
